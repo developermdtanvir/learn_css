@@ -1,0 +1,21 @@
+ /* peseudo class style heare  */
+li:last-child{
+    color: gold;
+}
+li:first-child{
+    background-color: aquamarine;
+}
+li:nth-child(2n){
+    background-color: orange;
+}
+li:nth-child(2n + 1){
+    background-color: aqua;
+}
+
+/* peseudo element  style heare  */
+h3::after{
+    content: 'Hello    ';
+}
+h3::before{
+    content: '     Gello';
+}
